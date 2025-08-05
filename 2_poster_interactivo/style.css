@@ -69,6 +69,30 @@
         transform: translateY(0px); opacity: 0;
     }
 }
+.bloque1{
+    animation: mover 5s infinite alternate ease-in-out;
+}
+
+@keyframes mover{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(120px);
+    }
+}
+.bloque2{
+    animation: movimiento 8s infinite alternate ease-in-out;
+}
+@keyframes movimiento{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(120px);
+    }
+}
+
 /* Contador monedas y corazones */
 
     .hud {
